@@ -10,7 +10,8 @@ namespace Full_GRASP_And_SOLID
         implementen esta interfaz, no dependan estrictamente de la clase Recipe, cumpliendo además así con el
         OCP, pues con esta nueva implementación, en caso de que se quiera imprimir un nuevo texto que no sea necesariamente una receta, 
         será posible sin tener que modificar el código ya existente.
-        Con estos cambios logramos además, reducir la rigidez, la fragilidad y la inamovilidad de nuestro programa.
+        Con estos cambios logramos además, reducir la rigidez, la fragilidad y la inamovilidad de nuestro programa, y por otra parte
+        aumentar la reutilización del mismo.
     */
     public interface ITextToPrint
     {
